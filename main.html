@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Temple du Maître - Contrat d’Accès</title>
+    <!-- Lien vers les polices Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo du Temple du Maître" class="logo">
+            <h1>Temple du Maître</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="container">
+                <p>Bienvenue au Temple du Maître. Veuillez lire attentivement le contrat ci-dessous, entrer votre pseudo Discord et signer pour devenir un disciple.</p>
+            </div>
+        </section>
+
+        <section id="contract">
+            <div class="container">
+                <h2>Contrat d'Engagement des Disciples du Temple du Maître</h2>
+                <div class="contract-content">
+                    <!-- Contrat complet -->
+                    <p><em>Préambule :</em></p>
+                    <p>En signant ce contrat, le disciple s'engage à rejoindre le Temple du Maître dans un esprit de respect, de bienveillance et d'obéissance. Ce contrat vise à assurer le bonheur mutuel du Maître et de ses disciples, ainsi qu'une harmonie au sein de la communauté.</p>
+
+                    <p><strong>Article 1 : Engagement et Obéissance</strong></p>
+                    <p>Le disciple s'engage à être sage, à respecter les règles du Temple et à obéir aux directives du Maître. Il fera preuve de loyauté et de dévouement dans toutes ses actions.</p>
+
+                    <p><strong>Article 2 : Protection et Solidarité</strong></p>
+                    <p>Les disciples doivent se protéger mutuellement et prendre soin les uns des autres. La solidarité et l'entraide sont des valeurs fondamentales du Temple. Chaque disciple contribue à créer un environnement sûr et accueillant pour tous.</p>
+
+                    <p><strong>Article 3 : Bienveillance du Maître</strong></p>
+                    <p>Le Maître s'engage à prendre soin de ses disciples, à veiller à leur bien-être et à leur épanouissement au sein du Temple. Il assure un leadership basé sur le respect et la considération de chacun.</p>
+
+                    <p><strong>Article 4 : Objectif de Bonheur Mutuel</strong></p>
+                    <p>Ce contrat vise à apporter du plaisir et du bonheur tant aux disciples qu'au Maître. Chaque partie s'efforce de contribuer positivement à l'expérience de l'autre.</p>
+
+                    <p><strong>Article 5 : Durée du Contrat et Résiliation</strong></p>
+                    <p>Le disciple est membre du Temple et peut décider de mettre fin au contrat s'il le souhaite. La résiliation doit être motivée par de bonnes raisons et être communiquée clairement au Maître. Le respect mutuel est maintenu même après la fin de l'engagement.</p>
+
+                    <p><strong>Article 6 : Acceptation du Contrat</strong></p>
+                    <p>En signant ce contrat, le disciple confirme avoir lu et compris l'ensemble des clauses et s'engage à les respecter pleinement.</p>
+
+                    <p>---</p>
+                    <p><em>Fait le</em> ___ [date] ___</p>
+                    <p><strong>Pseudo Discord du Disciple :</strong> ___ [à remplir] ___</p>
+                    <p><strong>Signature du Disciple :</strong></p>
+                    <p><em>(Veuillez apposer votre signature ci-dessous)</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="form-section">
+            <div class="container">
+                <form id="contractForm">
+                    <label for="discordUsername">Pseudo Discord :</label>
+                    <input type="text" id="discordUsername" name="discordUsername" required placeholder="Entrez votre pseudo Discord">
+
+                    <label for="signature">Signature :</label>
+                    <canvas id="canvas" width="500" height="200"></canvas>
+                    <div class="buttons">
+                        <button type="button" id="clearBtn">Effacer la signature</button>
+                        <button type="submit" id="submitBtn">Soumettre</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Temple du Maître. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
